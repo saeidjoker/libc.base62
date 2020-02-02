@@ -8,6 +8,7 @@
 - Simply uses a BitStream class (find it in the code) to do the operation (really simple)
 
 ### Usage:
+Just add this [nuget package](https://www.nuget.org/packages/libc.base62/) to your project and use as below:
 ```
 [Fact]
 public void Ascii() {
