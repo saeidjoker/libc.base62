@@ -66,13 +66,15 @@ namespace libc.base62 {
                 if (posMod == 7) {
                     posMod = 0;
                     posCount++;
-                } else {
+                }
+                else {
                     posMod++;
                 }
                 if (readPosMod == 7) {
                     readPosMod = 0;
                     readPosCount++;
-                } else {
+                }
+                else {
                     readPosMod++;
                 }
             }
@@ -138,13 +140,15 @@ namespace libc.base62 {
                 if (posMod == 7) {
                     posMod = 0;
                     posCount++;
-                } else {
+                }
+                else {
                     posMod++;
                 }
                 if (readPosMod == 7) {
                     readPosMod = 0;
                     readPosCount++;
-                } else {
+                }
+                else {
                     readPosMod++;
                 }
             }
